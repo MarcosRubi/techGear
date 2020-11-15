@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Plantilla web"/>
+    <meta property="og:description" content="Página web creada con único propósito de practicar maquetación web cpn bootstrap"/>
+    <meta property="og:image" content="https://marcosrubi.github.io/studyInk/images/og-image.webp"/>
+    <meta property="og:url" content="https://marcosrubi.github.io/styudyInk/"/>
+    <meta property="og:site_name" content="Techgear"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <title>Techgear</title><!--BOOTSTRAP V.4.5.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/><!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/styles.css"/><!--FONT ICONS-->
+    <script src="https://kit.fontawesome.com/87b8bff04b.js" crossorigin="anonymous"></script><!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body class="bg-dark">
+    <header><!--NAVIGATION-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-4 reveal" id="menu">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburguer-menu" aria-controls="hamburguer-menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-between my-3 my-lg-0" id="hamburguer-menu"><a class="navbar-brand position-relative logo" href="#"><span class="font-weight-bold">Techgear<i class="text-primary position-absolute fa fa-caret-left"></i></span></a>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#home">HOME</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#products">PRODUCTS</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#services">SERVICES</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#members">MEMBERS</a></li>
+              <li class="nav-item"><a class="nav-link px-lg-3" href="#contacts">CONTACTS</a></li>
+              <button class="col-3 btn btn-outline-primary ml-lg-3 my-3 my-lg-0" type="button">SIGN IN</button>
+            </ul>
+          </div>
+        </div>
+      </nav><!--END NAVIGATION-->
+<!--BANNER-->
+      <div class="container mt-5 pt-5" id="home">
+        <div class="row">
+          <div class="col-12 col-lg-7 text-white align-self-center toLeft">
+            <h1 class="display-4">G502 HERO WIRELESS</h1>
+            <div class="col-12 col-lg-11 pl-lg-0">
+              <H2 class="text-secondary py-3">Logitech's Hight Performance Wireless Gaming Mouse </H2>
+              <p>The Razer Orabarus is outfitted with the most advanced & configurable sensor yet, the all-new 8200dpi 4G laser sensor. It tracks so precisely, you always hit targets exactly where you need to.</p>
+              <p class="text-primary display-5">USD 99.99</p>
+            </div>
+            <button class="btn btn-primary mr-3 btn-sm py-3 px-4" type="button"> <i class="fa fa-cart-arrow-down"> <span class="ml-1">ADD TO CART</span></i></button>
+            <button class="btn btn-outline-light btn-sm py-3 px-4" type="button"><i class="fa fa-info-circle"> <span class="ml-1">MORE DETAILS</span></i></button>
+          </div>
+          <div class="col-12 col-lg-5 toRight">
+            <div class="mt-5 mt-lg-0"><img class="img-fluid banner-img" src="images/mouse.webp" alt="Mouse G502"/></div>
+          </div>
+        </div>
+      </div><!--END BANNER-->
+    </header>
+    <main class="container">
+      <div class="text-center py-4" id="products">
+        <div class="filter-saturate position-relative">
+          <h3 class="text-primary display-3 font-weight-bold">PRODUCTS </h3>
+          <p class="text-white m-0 p-0 display-6 position-absolute w-100 subtitle">Which type of gear are you looking for?</p>
+        </div><a class="text-primary btn">View more<i class="fa fa-arrow-right ml-2"></i></a>
+        <div class="row justify-content-around py-4 text-white font-weight-bold display-6">
+          <div class="card bg-gradient-dark product-shadow my-4 my-lg-0 toLeft" style="width: 20rem;"><img class="card-img-top mh-250" src="images/product-mouse.webp" alt="Mouse gaming"/>
+            <div class="card-body mt-4">
+              <p class="card-text">Gaming</p>
+            </div>
+          </div>
+          <div class="card bg-gradient-dark product-shadow my-4 my-lg-0 toBottom" style="width: 20rem;"><img class="card-img-top mh-250" src="images/product-graphic.webp" alt="Graphic Design"/>
+            <div class="card-body mt-4">
+              <p class="card-text">Graphic Design</p>
+            </div>
+          </div>
+          <div class="card bg-gradient-dark product-shadow my-4 my-lg-0 toRight" style="width: 20rem;"><img class="card-img-top mh-250" src="images/product-other.webp" alt="Office &amp; others"/>
+            <div class="card-body mt-4">
+              <p class="card-text">Office & Others</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-4" id="services">
+        <div class="filter-saturate position-relative">
+          <h3 class="text-primary display-3 font-weight-bold">SERVICES </h3>
+          <p class="text-white m-0 p-0 display-6 position-absolute w-100 subtitle">We provide more than high-tech products!</p>
+        </div><a class="text-primary btn">View more<i class="fa fa-arrow-right ml-2"></i></a>
+        <div class="row">
+          <div class="col-12 col-md-6 toLeft">
+            <div class="row bg-gradient-dark m-1 py-2">
+              <div class="col-6 mx-auto mx-lg-0 col-lg-5 service-shadow"><img class="img-fluid" src="images/security.webp" alt=""/></div>
+              <div class="col-12 col-lg-7 text-white align-self-center text-center text-lg-left pb-3 pt-lg-5 ">
+                <h4 class="font-weight-bold">Lifetime Guarantee</h4>
+                <p class="mb-0 display-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam repudiandae ratione praesentium! Beatae Lorem.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 toRight">
+            <div class="row bg-gradient-dark m-1 py-2">
+              <div class="col-6 mx-auto mx-lg-0 col-lg-5 service-shadow"><img class="img-fluid" src="images/price.webp" alt=""/></div>
+              <div class="col-12 col-lg-7 text-white align-self-center text-center text-lg-left pb-3 pt-lg-5 ">
+                <h4 class="font-weight-bold">Good Price</h4>
+                <p class="mb-0 display-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam repudiandae ratione praesentium! Beatae Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 toLeft">
+            <div class="row bg-gradient-dark m-1 py-2">
+              <div class="col-6 mx-auto mx-lg-0 col-lg-5"><img class="img-fluid" src="images/laptop.webp" alt=""/></div>
+              <div class="col-12 col-lg-7 text-white align-self-center text-center text-lg-left pb-3 pt-lg-5 ">
+                <h4 class="font-weight-bold">Free Software Updates</h4>
+                <p class="mb-0 display-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam repudiandae ratione praesentium! Beatae Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 toRight">
+            <div class="row bg-gradient-dark m-1 py-2">
+              <div class="col-6 mx-auto mx-lg-0 col-lg-5"><img class="img-fluid" src="images/support.webp" alt=""/></div>
+              <div class="col-12 col-lg-7 text-white align-self-center text-center text-lg-left pb-3 pt-lg-5 ">
+                <h4 class="font-weight-bold">24/7 Support</h4>
+                <p class="mb-0 display-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam repudiandae ratione praesentium! Beatae Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main><!--BOOTSTRAP SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G12niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script><!--CUSTOM SCRIPTS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
