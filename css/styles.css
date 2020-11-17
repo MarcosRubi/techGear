@@ -1,73 +1,117 @@
-html{
+html {
   overflow-x: hidden;
 }
 body {
   font-family: "Alef", "Roboto";
 }
 
-.logo span i{
-    bottom:5px;
-    transform: rotate(35deg);
+.logo span i {
+  bottom: 5px;
+  transform: rotate(35deg);
 }
-#menu{
+#menu {
   transition: all 1000ms;
 }
-.nav-link:hover{
-    color: #19B5FE !important;
-}
-.display-5{
-  font-size: 2rem;
-}
-.display-6{
-  font-size: 1.5rem;
-}
-.display-7{
-  font-size: 0.7rem;
-}
-.banner-img{
-  max-height: 580px;
-}
-.filter-saturate{
-  filter: saturate(0.4);
-}
-.subtitle{
-  top:60%;
-}
-.bg-gradient-dark{
-  background: linear-gradient(to top, #333, 80%, transparent 0%);
+.nav-link:hover {
+  color: #19b5fe !important;
 }
 
-.product-shadow:before{
-  content: '';
+.display-5 {
+  font-size: 2rem;
+}
+.display-6 {
+  font-size: 1.5rem;
+}
+.display-7 {
+  font-size: 0.7rem;
+}
+.banner-img {
+  max-height: 580px;
+}
+.filter-saturate {
+  filter: saturate(0.4);
+}
+.subtitle {
+  top: 60%;
+}
+.bg-gradient-dark {
+  background: linear-gradient(to top, #333, 80%, transparent 0%);
+}
+.mh-245 {
+  min-height: 245px;
+}
+.product-shadow:before {
+  content: "";
   position: absolute;
   width: 60%;
   height: 30px;
   left: 75px;
   background: black;
   bottom: 19%;
-  background: radial-gradient(ellipse at 50%,
-  rgba(0,0,0,0.6), rgba(0,0,0,0) 80%);
+  background: radial-gradient(
+    ellipse at 50%,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0) 80%
+  );
 }
-.service-shadow:before{
-  content: '';
+.service-shadow:before {
+  content: "";
   position: absolute;
   width: 60%;
   height: 30px;
   left: 60px;
   background: black;
   bottom: 0%;
-  background: radial-gradient(ellipse at 50%,
-  rgba(0,0,0,0.6), rgba(0,0,0,0) 80%);
+  background: radial-gradient(
+    ellipse at 50%,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0) 80%
+  );
 }
-.bg-gradient-dark{
-  border:none;
+.bg-gradient-dark {
+  border: none;
   transition: all 500ms;
 }
 
-.bg-gradient-dark:hover{
+.bg-gradient-dark:hover {
   transform: scale(1.05);
   box-shadow: none;
 }
-.mh-250{
+.mh-250 {
   max-height: 230px;
+}
+@media (max-width: 768px) {
+  body{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .display-5 {
+    font-size: 1.7rem;
+  }
+  .display-6 {
+    font-size: 1.2rem;
+  }
+  .display-7 {
+    font-size: 0.4rem;
+  }
+}
+@media (max-width: 520px) {
+  .position-absolute{
+    position: relative !important;
+  }
+}
+@media (max-width: 412px) {
+  .mr-3{
+    margin-right: 0px !important;
+  }
+  .btn-sm{
+    width: 95%;
+    margin-bottom: 15px;
+  }
 }
