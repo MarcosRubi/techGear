@@ -1,6 +1,7 @@
 html {
   overflow-x: hidden;
 }
+
 body {
   font-family: "Alef", "Roboto";
 }
@@ -9,9 +10,11 @@ body {
   bottom: 5px;
   transform: rotate(35deg);
 }
+
 #menu {
   transition: all 1000ms;
 }
+
 .nav-link:hover {
   color: #19b5fe !important;
 }
@@ -19,27 +22,35 @@ body {
 .display-5 {
   font-size: 2rem;
 }
+
 .display-6 {
   font-size: 1.5rem;
 }
+
 .display-7 {
   font-size: 0.7rem;
 }
+
 .banner-img {
   max-height: 580px;
 }
+
 .filter-saturate {
   filter: saturate(0.4);
 }
+
 .subtitle {
   top: 60%;
 }
+
 .bg-gradient-dark {
   background: linear-gradient(to top, #333, 80%, transparent 0%);
 }
+
 .mh-245 {
   min-height: 245px;
 }
+
 .product-shadow:before {
   content: "";
   position: absolute;
@@ -48,12 +59,9 @@ body {
   left: 75px;
   background: black;
   bottom: 19%;
-  background: radial-gradient(
-    ellipse at 50%,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0) 80%
-  );
+  background: radial-gradient(ellipse at 50%, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 80%);
 }
+
 .service-shadow:before {
   content: "";
   position: absolute;
@@ -62,12 +70,9 @@ body {
   left: 60px;
   background: black;
   bottom: 0%;
-  background: radial-gradient(
-    ellipse at 50%,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0) 80%
-  );
+  background: radial-gradient(ellipse at 50%, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 80%);
 }
+
 .bg-gradient-dark {
   border: none;
   transition: all 500ms;
@@ -77,16 +82,20 @@ body {
   transform: scale(1.05);
   box-shadow: none;
 }
+
 .mh-250 {
   max-height: 230px;
 }
+
 @media (max-width: 768px) {
-  body{
+  body {
     font-size: 14px;
   }
-  h2{
+
+  h2 {
     font-size: 1.5rem;
   }
+
   .display-4 {
     font-size: 2rem;
   }
@@ -94,24 +103,29 @@ body {
   .display-5 {
     font-size: 1.7rem;
   }
+
   .display-6 {
     font-size: 1.2rem;
   }
+
   .display-7 {
     font-size: 0.4rem;
   }
 }
 @media (max-width: 520px) {
-  .position-absolute{
+  .position-absolute {
     position: relative !important;
   }
 }
 @media (max-width: 412px) {
-  .mr-3{
+  .mr-3 {
     margin-right: 0px !important;
   }
-  .btn-sm{
+
+  .btn-sm {
     width: 95%;
     margin-bottom: 15px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
